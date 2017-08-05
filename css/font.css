@@ -10,7 +10,14 @@ h1
     font-size: 80px;
     color: #00BFFF;
     margin: 0px auto;
-    
+}
+
+h3
+{
+    font-family: MyFirstFont;
+    font-size: 20px;
+    color: #00BFFF;
+    margin: 0px auto;
 }
 
 td
@@ -22,17 +29,17 @@ p
 {
 	text-align:center;
 	font-size: 25px;
-	font-weight: bold
+	font-weight: bold;
 }
 
 a:link {
-    color: 	#696969;
+    color: 	black;
 	text-decoration: none;
 	
 }
 
 a:visited {
-	color: 	#696969;
+	color: 	black;
 }
 
 a:hover {
@@ -40,9 +47,29 @@ a:hover {
 }
 
 a:active {
-    color: #663333;
+    color: black;
 }
 
-td.p:hover {
+tr td a p
+{
+	margin: 0px 0px 0px 0px;
+}
+
+
+td p:hover {
     color: black;
+}
+
+.youtubevideo
+{
+    width: 570px;
+    margin: 50px auto;
+}
+
+.youtubevideo h1
+{
+    font-family: MyFirstFont;
+    font-size: 30px;
+    color: #000000;
+
 }
