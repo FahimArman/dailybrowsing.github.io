@@ -4,6 +4,48 @@
    src: url(font/arbutusslab-regular.ttf);   
 }
 
+.position_top
+{
+	height: 20px;
+    background: #fdfdfd;
+    text-align: center;    
+    background-color: #fff;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    backface-visibility:hidden;
+}
+
+.left_float
+{
+	width:80px;
+	float:left;
+	text-align: left; 
+}
+
+.center_float
+{
+	display:block;
+	float:center;
+	margin: 0px auto;
+	text-align: center; 
+}
+
+.center_float p
+{
+	font-family: MyFirstFont;
+    font-size: 18px;
+    color: #00BFFF;
+    margin: 0px auto;
+	width:150px
+}
+
+.top_margine
+{
+	margin-top:22px;
+}
 
 .h1name
 {
@@ -66,6 +108,7 @@
 	display:block;
 	float:left;
 	overflow: hidden;
+	margin-right:2px;
 }
 
 .content a:link
@@ -108,6 +151,7 @@
 {
     width: 570px;
     margin: 50px auto;
+	clear:both;
 }
 
 .youtubevideo h1
