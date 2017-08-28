@@ -6,7 +6,7 @@
 
 .position_top
 {
-	height: 20px;
+	height: 64px;
     background: #fdfdfd;
     text-align: center;    
     background-color: #fff;
@@ -20,7 +20,7 @@
 
 .left_float
 {
-	width:80px;
+	width:140px;
 	float:left;
 	text-align: left; 
 }
@@ -36,15 +36,15 @@
 .center_float p
 {
 	font-family: MyFirstFont;
-    font-size: 18px;
+    font-size: 40px;
     color: #00BFFF;
-    margin: 0px auto;
-	width:150px
+    margin: 8px auto;
+	width:300px;
 }
 
 .top_margine
 {
-	margin-top:22px;
+	margin-top:66px;
 }
 
 .h1name
@@ -150,15 +150,16 @@
 .youtubevideo
 {
     width: 570px;
-    margin: 50px auto;
+    margin: 75px auto;
 	clear:both;
 }
 
 .youtubevideo h1
 {
     font-family: MyFirstFont;
+	text-align:center;
     font-size: 30px;
+	margin: 0px auto;
     color: #000000;
-
 }
 
