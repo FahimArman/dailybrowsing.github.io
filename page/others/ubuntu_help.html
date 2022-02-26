@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset = "utf-8">
+    <title>Ubuntu Help</title>
+
+    <link rel="stylesheet" type="text/css" href="../../css/font.css" media="screen">
+    <link rel="shortcut icon" type="image/x-icon" href="../../image/logo.gif">
+
+</head>
+
+<body>
+
+	<div class="position_top">
+		
+		<div class="left_float">
+			<a href="../linux_software.html"><img src="../../image/arrow.png" alt="Previous Page" title="Previous Page"></a>
+			<a href="../../index.html"><img src="../../image/home.png" alt="Home Page" title="Home Page"></a>
+		</div>
+		
+		<div class="center_float">
+			<p>Daily Browsing</p>
+		</div>  
+		
+	</div>
+
+	<div class="h1name top_margine">
+		<h1>
+			Ubuntu Commands
+		</h1>
+	</div>
+
+	<dl>
+        <dt>Version</dt>
+            <dd>#lsb_release -a</dd>
+        <dt>Gnome version</dt>
+            <dd>#gnome-shell --version</dd>
+		<dt>Upgradable list</dt>
+			<dd>#apt list --upgradable</dd>
+		<dt>Update</dt>
+			<dd>#sudo apt update</dd>
+        <dt>Upgrade</dt>
+			<dd>#sudo apt upgrade</dd>
+        <dt>dist-upgrade</dt>
+            <dd>#sudo apt dist-upgrade</dd>
+		<dt>WinRar</dt>
+			<dd>#sudo apt-get update && sudo apt-get install rar unrar</dd>
+		<dt>VLC</dt>
+			<dd>#sudo apt-get update && sudo apt-get install vlc</dd>
+		<dt>uGet</dt>
+			<dd>
+				<pre>
+#sudo add-apt-repository ppa:plushuang-tw/uget-stable
+#sudo apt update
+#sudo apt install uget
+				</pre>
+			</dd>
+		<dt>Unity Tweak Tool</dt>
+			<dd>#sudo apt-get update && sudo apt-get install unity-tweak-tool [for ubuntu 16]</dd>
+        <dt>Gnome Tweak Tool</dt>
+            <dd>#apt-get install gnome-tweak-tool</dd>
+		<dt>Python3</dt>
+			<dd>#sudo apt-get update && sudo apt-get install python3-pip</dd>
+		<dt>git</dt>
+			<dd>#sudo apt-get update && sudo apt-get install git</dd>
+		<dt>cowsay</dt>
+			<dd>#sudo apt-get update && sudo apt-get install cowsay</dd>
+		<dt>Password Generator</dt>
+			<dd>#sudo apt-get update && sudo apt-get install pwgen</dd>
+		<dt>Star wars</dt>
+			<dd>#telnet towel.blinkenlights.nl</dd>
+        <dt>Brackets</dt>
+			<dd>
+			    <pre>
+#sudo add-apt-repository ppa:webupd8team/brackets
+#sudo apt-get update
+#sudo apt-get install brackets
+				</pre>
+			</dd>
+        <dt>Atom</dt>
+			<dd>
+			    <pre>
+#sudo add-apt-repository ppa:webupd8team/atom
+#sudo apt-get update
+#sudo apt-get install atom
+				</pre>
+			</dd>
+
+	</dl>
+    
+     <div class="h1name">
+		<h1>
+			Ubuntu Themes
+		</h1>
+	</div>
+    
+    <ol type="I">
+        <li> Manual
+            <ol type="1">
+                <li>    
+                    <a href="https://www.gnome-look.org/" target="_blank">https://www.gnome-look.org/</a>
+                    <ul>
+                        <li>Gnome Shell Themes</li>
+                        <li>GTK3 Themes</li>
+                        <li>Cursors</li>
+                        <li>Icon Themes</li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="https://www.gnome-look.org/p/1220749/" target="_blank">Canta Theme</a>
+                    <ul>
+                        <li>Canta.tar.xz - extract in home/.themes</li> 
+                        <li>Canta-icon-theme.tar.xz	- extract in home/.icons</li>
+                        <li>wallpaper.tar.xz - extract in home/Pictures</li>
+                    </ul>
+                </li>
+                
+                <li>
+                    Download From Software Center
+                    <ol type="i">
+                        <li>GNOME Tweaks</li>
+                        <li>User themes - if can't change shell</li>
+                        <li>
+                            <a href="https://github.com/numixproject/numix-icon-theme-circle"> Numix Icon</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/keeferrourke/capitaine-cursors" target="_blank">
+                            Capitaine Cursors</a>
+                        
+                        </li>
+                        <li>
+                            Dconf Editor - menu will come from right to left
+                            <ul>
+                                <li>search -> show-apps-at-top -> on</li>
+                            </ul>
+                        </li>
+                        <li>Dash to panel - everything in the bellow</li>
+                    </ol>
+                </li>
+                <li>Change Terminal like Parrot OS
+                    <ul>
+                        <li>
+                            <a href="https://gist.github.com/rickdaalhuizen90/d1df7f6042494b982db559efc01d9557">Copy All</a>
+                        </li>
+                        <li>paste all(replace) and save in home/.bashrc or ~/.bashrc</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        
+        <li>Download from Software Center</li>
+        <ol>
+            <li>communitheme</li>
+        </ol>
+    </ol>
+	
+    <div class="h1name">
+		<h1>
+			Xampp commands
+		</h1>
+	</div>
+	
+	<dl>
+	    <dt>
+	        Follow all command accordingly.....
+	    </dt>
+        
+        <dd>
+            <ul style="list-style-type:'#'">
+                <li>download xampp [via uGet]</li>
+                <li>chmod 755 xampp-linux-x64-7.2.2-0-installer.run</li>
+                <li>sudo su [substitude user  //else will not work]</li>
+                <li>./xampp-linux-x64-7.2.2-0-installer.run</li>
+                <li>sudo /opt/lampp/lampp start   [without sudo it will not work and must run from this fixed path]</li>
+                <li>./lampp security [password toor for root]</li>
+                <li>http://localhost</li>
+                <li>sudo /opt/lampp/lampp stop</li>
+                <li>AND MAKE ALL FILE AND FOLDER 777 TO WORK ...DONT KNOW THE EXACT THINGS :/</li>
+            </ul>
+        </dd>
+	</dl>
+	
+    <div class="h1name">
+        <h1>
+            Brackets...
+        </h1>
+    </div>
+    
+    <dl>
+        <dt>Extensions</dt>
+        <dd>
+            <ul>
+                <li><a href="https://github.com/sergeche/emmet-sublime" target="_blank">Emmet </a>
+                    <ul>
+                        <li><a href="https://docs.emmet.io/cheat-sheet/" target="_blank"> Emmet Cheat Sheet</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="https://github.com/brackets-userland/brackets-snippets" target="_blank">Brackets Snippets (by zaggino)</a></li>
+                
+                <li><a href="https://github.com/acbarbosa1964/acb-bootstrap-snippets" target="_blank">ACB Bootstrap Snippets</a></li>
+                
+                <li><a href="https://github.com/chuyik/brackets-snippets" target="_blank">Brackets Snippets (by edc)</a></li>
+                
+                <li><a href="https://github.com/ahuth/brackets-paste-and-indent" target="_blank">Paste and Indent</a></li>
+                
+                <li><a href="https://github.com/myaghobi/Brackets-QuickFormTool" target="_blank">QuickFormTool</a></li>
+                
+                <li><a href="https://github.com/wolffe/brackets-tree-icons" target="_blank">Brackets Tree Icons</a></li>
+                
+                <li><a href="https://github.com/ivogabe/Brackets-Icons" target="_blank">Brackets Icons</a></li>
+                
+                <li><a href="https://github.com/brackets-beautify/brackets-beautify" target="_blank">Beautify</a></li>
+                
+                <li><a href="https://github.com/Taraflex/Brackets-Color-Highlighter" target="_blank">Color Highlighter</a></li>
+                
+                <li><a href="https://github.com/le717/brackets-html-skeleton" target="_blank">HTML Skeleton</a></li>
+                
+                <li><a href="https://github.com/JTruax/bootstrap-starter-template" target="_blank">Bootstrap Starter Template</a></li>
+                
+                <li><a href="https://github.com/gr9/html-comment-button" target="_blank">HTML comment button</a></li>
+                
+                <li><a href="https://github.com/cfjedimaster/brackets-jsdownloader" target="_blank">JSDownloader</a></li>
+                
+                <li><a href="https://github.com/Liongold/brackets-pdfexport" target="_blank">ExportPDF</a></li>
+                
+                <li><a href="https://github.com/holmar/brackets-no-distractions-advanced" target="_blank">No Distractions Advanced</a></li>
+                
+                <li><a href="https://github.com/denis-gorin/brackets_zw" target="_blank">Zoom wheel</a></li>
+                
+                <li><a href="https://github.com/mikaeljorhult/brackets-autoprefixer" target="_blank">Autoprefixer</a></li>
+                
+                <li><a href="https://github.com/abagshaw/brackets-minifier" target="_blank">JS CSS Minifier</a></li>
+                
+                <li><a href="https://github.com/DH3ALEJANDRO/brackets-open-in-browser" target="_blank">Open In Browser</a></li>
+                
+                <li><a href="https://github.com/nmaxcom/brackets-autosaver" target="_blank">Autosave every edit!</a></li>
+                
+                <li><a href="https://github.com/thaneuk/brackets-special-html-chars" target="_blank">Special Html Characters</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li>
+                    <a href="https://github.com/sbruchmann/brackets-static-preview" target="_blank">Static Preview</a>
+
+                    <ul style="list-style-type:'#'">
+                        <li>go directory --->   /opt/brackets/samples/root/Getting Started/</li>
+                        <li>sudo su</li>
+                        <li>chmod 777 hello.html</li>
+                    </ul>
+
+                </li>
+                
+                <li><a href="https://github.com/lkcampbell/brackets-indent-guides" target="_blank">Indent Guides</a></li>
+                
+                <li><a href="https://github.com/DH3ALEJANDRO/custom-work-for-brackets" target="_blank">Custom Work</a></li>
+                
+                
+                
+            </ul>
+        </dd>
+    </dl>
+    
+    <dl>
+        <dt>Themes...</dt>
+        <dd>
+            <ul>
+                <li><a href="https://github.com/Brackets-Themes/infinite">infinite</a></li>
+            </ul>
+        </dd>
+    </dl>
+    
+
+	
+<!--
+		<dt></dt>
+			<dd></dd>
+-->
+
+</body>
+</html>

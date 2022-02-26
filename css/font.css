@@ -1,0 +1,332 @@
+@font-face {
+   font-family: MyFirstFont;
+   
+   src: url(font/arbutusslab-regular.ttf);   
+}
+
+/*
+//old color: #00BFFF;
+//new color: #00AAFF;
+*/
+
+.position_top
+{
+	height: 64px;
+    background: #fdfdfd;
+    text-align: center;    
+    background-color: #fff;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    backface-visibility:hidden;
+}
+
+.left_float
+{
+	width:140px;
+	float:left;
+	text-align: left;
+}
+
+.center_float
+{
+	display:block;
+	float:center;
+	text-align: center; 
+	//overflow:hidden;
+	//margin-left: 140px;
+}
+
+.center_float p
+{
+	font-family: MyFirstFont;
+    font-size: 40px;
+    color: #00AAFF;
+    margin: 8px auto;
+	width:300px;
+}
+
+.top_margine
+{
+	margin-top:66px;
+}
+
+.bottom_margine
+{
+    clear:both;
+    margin-bottom:15px;
+}
+
+.h1name
+{
+	width:100%;
+	display:block;
+	text-align:left;
+	clear:both;
+}
+
+.h1name h1
+{
+    font-family: MyFirstFont;
+    font-size: 36px;
+    color: #00AAFF;
+    margin: 0px auto;
+}
+
+.h1name h1 a:link
+{
+    color: #00AAFF;
+    text-decoration: none;
+}
+
+.h1name h1 a:visited
+{
+    color: #00AAFF;
+    text-decoration: none;
+}
+
+.h1name h1 a:hover
+{
+    color: #00AAFF;
+    text-decoration: none;
+}
+
+.h1name h1 a:active
+{
+    color: #00AAFF;
+    text-decoration: none;
+}
+
+.h3name
+{
+	width:100%;
+	display:block;
+	text-align:left;
+	clear:both;
+}
+
+.h3name h3
+{
+	font-family: MyFirstFont;
+    font-size: 16px;
+    color: #00AAFF;
+    margin: 0px auto;
+}
+
+
+.h3name h3 a:link
+{
+    color: #00AAFF;
+    text-decoration: none;
+}
+
+.h3name h3 a:visited
+{
+    color: #00AAFF;
+    text-decoration: none;
+}
+
+.h3name h3 a:hover
+{
+    color: #00AAFF;
+    text-decoration: none;
+}
+
+.h3name h3 a:active
+{
+    color: #00AAFF;
+    text-decoration: none;
+}
+
+.read_me
+{
+	width:100%;
+	display:block;
+	text-align:right;
+	clear:both;
+}
+
+.read_me a p
+{
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	//border-bottom: 3px double;  
+}
+
+.wrapper
+{
+	width:100%;
+	display:block;
+	clear:both;
+}
+
+.content
+{
+	width:200px;
+	height:270px;
+	display:block;
+	float:left;
+	overflow: hidden;
+	margin-right:2px;
+}
+
+.content a:link
+{
+	color: black;
+	text-decoration: none;
+}
+
+.content a:visited
+{
+	color: black;
+}
+
+.content a:hover
+{
+	color: black;
+}
+
+.content a:active
+{
+	color: black;
+}
+
+.content a p
+{
+	font-family: MyFirstFont;
+	text-align:center;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+.youtubevideo
+{
+    width: 570px;
+    margin: 75px auto;
+	clear:both;
+}
+
+.youtubevideo h1
+{
+    font-family: MyFirstFont;
+	text-align:center;
+    font-size: 30px;
+	margin: 0px auto;
+    color: #000000;
+}
+
+
+
+
+
+.arrows
+{
+    height: 64px;
+    width:100%;
+    clear: both;
+    overflow: hidden;
+}
+
+.left_arrow
+{
+    float:left;
+    display: block;
+    text-align: left;
+}
+
+.left_arrow a img
+{
+    width: 90px;
+}
+
+.left_arrow a:link
+{
+    color: #00AAFF;
+    text-decoration: none;
+}
+
+.left_arrow a:active
+{
+    color: #00AAFF;
+}
+
+.left_arrow a:hover
+{
+    color: #00AAFF;
+}
+
+.left_arrow a:visited
+{
+    color: #00AAFF;
+}
+
+.left_arrow a p
+{
+    width: 300px;
+    
+    font-family: MyFirstFont;
+    font-size: 40px;
+    margin: 8px auto;
+}
+
+
+
+
+
+
+.right_arrow
+{
+    float:right;
+    display: block;
+    text-align: right;
+}
+
+.right_arrow a img
+{
+    width: 90px;
+}
+
+.right_arrow a:link
+{
+    color: #00AAFF;
+    text-decoration: none;
+}
+
+.right_arrow a:active
+{
+    color: #00AAFF;
+}
+
+.right_arrow a:hover
+{
+    color: #00AAFF;
+}
+
+.right_arrow a:visited
+{
+    color: #00AAFF;
+}
+
+.right_arrow a p
+{
+    width: 210px;
+
+    font-family: MyFirstFont;
+    font-size: 40px;
+    margin: 8px auto;
+}
+
+
+
+
+
