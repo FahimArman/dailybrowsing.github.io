@@ -75,21 +75,63 @@
 #sudo apt-get install brackets
 				</pre>
 			</dd>
+			
         <dt style="color: blueviolet">uGet</dt>
-       <dd>
-           <pre>
+			<dd>
+				<pre>
 #sudo apt update
 #sudo apt install uget
-           </pre>
-           
-       </dd>
-        
+				</pre>
+			</dd>
+			
+        <dt>lspci</dt>
+			<dd>#lspci</dd>
+			
+       <dt>alsamixer</dt>
+			<dd>#alsamixer</dd>
 
+		<dt>pavucontrol</dt>
+			<dd>#sudo apt update; sudo apt install pavucontrol</dd>
+		
+		<dt>edit alsa-base.conf </dt>
+			<dd>
+				<p>
+					Edit /etc/modprobe.d/alsa-base.conf as root and add options snd-hda-intel dmic_detect=0 at the end of this file by writing this on the terminal:
+					In my case, I didn’t have the file alsa-based.conf. So I created a new one and added only that line.
+				</p>
+			<p>echo "options snd-hda-intel dmic_detect=0" | sudo tee -a /etc/modprobe.d/alsa-base.conf</p>
+			</dd>
+			
+		<dt>edit blacklist.conf</dt>
+			<dd>
+				<p>
+				Edit /etc/modprobe.d/blacklist.conf as root and add blacklist snd_soc_skl at the end of the file by writting this on the terminal:
+				Same here, I created the file blacklist.conf and then I added only that line.
+				</p>
+				<p>echo "blacklist snd_soc_skl" | sudo tee -a /etc/modprobe.d/blacklist.conf</p>
+			
+			</dd>	   
+	   
+		<dt>Geany Theme</dt>
+		
+		<dd>
+			<a href="https://github.com/geany/geany-themes" target="_blank"> Geant Themes</a>
+			<p>
+			choose "Solarized (dark)"
+			<br/>
+			then Edit -> Preference-> Terminal -> (check)Execute programs in the VTE.
+			<br/>
+			to run the code press the three gear ring.
+			</p>
+		</dd>
+		
+		<dt>youtube-dl</dt>
+		<dd>
+<pre>
+#sudo apt install youtube-dl
+</pre>
+		</dd>
 	</dl>
-    
-
-    
-    
 	
 <!--
 		<dt></dt>
